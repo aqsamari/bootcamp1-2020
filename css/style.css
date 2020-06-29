@@ -6,7 +6,7 @@
 }
 
 #header{
-	background-image:url(../bg2.png);
+	background-image:url(../pics/bg2.png);
 	height:250vh;
 	background-attachment:fixed;
 	background-position:center;
@@ -183,7 +183,7 @@ padding: 5px 0;
 
 header{
     width: 200%; height: 100vh;
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url('../mine2.png');
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url('../pics/mine2.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
