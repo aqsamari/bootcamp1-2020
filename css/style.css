@@ -6,7 +6,11 @@
 }
 
 #header{
+<<<<<<< HEAD
 	background-image:url(../pics/bg2.png);
+=======
+	background-image:url(../9110.jpg);
+>>>>>>> e895e9e24bf4528e8cb619dc636e9ea4280ea4fb
 	height:250vh;
 	background-attachment:fixed;
 	background-position:center;
@@ -83,7 +87,7 @@ p{
 	top: 0;
 	background: #f67c92;
 	z-index:8;
-	transection: .8s;
+	transition: .8s;
 }
 nav ul li{
 	list-style:none;
@@ -91,7 +95,7 @@ nav ul li{
 	
 }
 nav ul li a{
-	texr-decoration: none;
+	text-decoration: none;
 	color: #fff;
 }
 #menuBtn{
@@ -122,8 +126,7 @@ padding: 5px 0;
 /*----women-----*/
 
 #women{
-
-	padding: 5px 0;
+	padding: 100px 0;
 	display: flex;
 	aLign-items:center;
 	flex-wrap: wrap;
@@ -133,7 +136,11 @@ padding: 5px 0;
 	
 }
 .women-left-col img{
-	width: 100%;
+	height:120%;
+	width: 110%;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
 		
 }
 .women-right-col{
@@ -150,11 +157,13 @@ padding: 5px 0;
 	margin: 10px 0 10px;
 	font-size:28px;
 	font-style:italic;
+	text-align: right;
 }
 .women-text h3{
 	font-size:28px;
 	font-style:italic;
 	color: #797979;
+	text-align: center;
 }
 /*---ACCESSORIES---*/
 
@@ -174,7 +183,7 @@ padding: 5px 0;
 	flex-basis:25%;
 	text-align:center;
 }
-..ACCESSORIES-col img{
+.ACCESSORIES-col img{
 	width: 100px;
 	
 }
@@ -183,12 +192,16 @@ padding: 5px 0;
 
 header{
     width: 200%; height: 100vh;
+<<<<<<< HEAD
     background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url('../pics/mine2.png');
+=======
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url('../neww.jpg');
+>>>>>>> e895e9e24bf4528e8cb619dc636e9ea4280ea4fb
     background-repeat: no-repeat;
     background-size: cover;
 }
 nav{
-    width: 100%;height: 15vh;
+    width: 250%;height: 15vh;
     background: rgba(0,0,0,0.2);
     color: pink; display: flex; justify-content: space-between;
     align-items: center; text-transform: uppercase;
@@ -200,9 +213,9 @@ nav .logo{
 }
 .common-btn{
 	padding: 20px 40px;
-	background: transparent;
+	background: solid #94142b;
 	outline: none;
-	border: 2px solid #f67c92;
+	border: 2px solid #94142b;
 	font-weight: bold;
 	cursor: ponter;
 }
@@ -226,25 +239,4 @@ section .btnone{
 .btnone:hover{
     background: pink;
     color: black;
-
 }
-/*---ACCESSORIES---*/
-
-#ACCESSORIES{
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-.ACCESSORIES-row{
-	width:80%;
-	margin: auto;
-	display: flex;
-	align-items:center;
-	justify-content: space-around;
-	flex-wrap:wrap;
-}
-.ACCESSORIES-col{
-	flex-basis:25%;
-	text-align:center;
-}
-..ACCESSORIES-col img{
-	width: 100px;
