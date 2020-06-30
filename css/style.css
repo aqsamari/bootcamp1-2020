@@ -4,14 +4,9 @@
 	font-family: sans-serif;
 
 }
-
 #header{
-<<<<<<< HEAD
-	background-image:url(../pics/bg2.png);
-=======
 	background-image:url(../9110.jpg);
->>>>>>> e895e9e24bf4528e8cb619dc636e9ea4280ea4fb
-	height:250vh;
+    height:250vh;
 	background-attachment:fixed;
 	background-position:center;
 	background-size:cover;
@@ -149,7 +144,7 @@ padding: 5px 0;
 }
 .women-text{
 	max-width:500px;
-	margin-right:100px;
+	margin-right:200px;
 	display:inline-block;
 	
 }
@@ -192,11 +187,7 @@ padding: 5px 0;
 
 header{
     width: 200%; height: 100vh;
-<<<<<<< HEAD
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url('../pics/mine2.png');
-=======
     background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url('../neww.jpg');
->>>>>>> e895e9e24bf4528e8cb619dc636e9ea4280ea4fb
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -237,6 +228,6 @@ section .btnone{
     color: #000;
 }
 .btnone:hover{
-    background: pink;
-    color: black;
+	background: pink;
+		color: black;
 }
