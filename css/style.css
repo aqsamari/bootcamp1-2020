@@ -37,7 +37,7 @@ h1{
 }
 .common-btn{
 	padding: 20px 40px;
-	background: transparent;
+	background: pink;
 	outline: none;
 	border: 2px solid #f67c92;
 	font-weight: bold;
@@ -114,7 +114,7 @@ padding: 5px 0;
 	
 }
 .GIRL-left-col img{
-	width: 200%;
+	width: 400%;
 }
 
 
@@ -131,8 +131,8 @@ padding: 5px 0;
 	
 }
 .women-left-col img{
-	height:120%;
-	width: 110%;
+	height:220%;
+	width: 220%;
 	background-attachment:fixed;
 	background-position:center;
 	background-size:cover;
@@ -144,12 +144,12 @@ padding: 5px 0;
 }
 .women-text{
 	max-width:500px;
-	margin-right:200px;
+	margin-right:100px;
 	display:inline-block;
 	
 }
 .women-text h2{
-	margin: 10px 0 10px;
+	margin: 10px;
 	font-size:28px;
 	font-style:italic;
 	text-align: right;
